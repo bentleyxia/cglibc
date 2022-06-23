@@ -1,0 +1,14 @@
+[project]
+name="cglibc"
+version="0.0.1"
+dependencies=[
+    "click",
+    "lief",
+    "pathlib",
+]
+
+[tool.setuptools.package-data]
+"*"=["*"]
+
+[project.scripts]
+cglibc="cglibc:cli"
